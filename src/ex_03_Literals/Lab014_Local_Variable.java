@@ -1,4 +1,4 @@
-package ex_02_Java_Basics;
+package ex_03_Literals;
 
 public class Lab014_Local_Variable {
     public static void main(String[] args) {

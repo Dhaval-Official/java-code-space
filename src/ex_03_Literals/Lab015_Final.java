@@ -1,4 +1,4 @@
-package ex_02_Java_Basics;
+package ex_03_Literals;
 
 public class Lab015_Final {
 
