@@ -14,7 +14,5 @@ public class PositiveOrNegative {
 
         System.out.println(result);
 
-
-
     }
 }

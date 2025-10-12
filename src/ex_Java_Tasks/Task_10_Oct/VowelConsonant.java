@@ -12,10 +12,10 @@ public class VowelConsonant {
 
         switch (character) {
             case'a','e','i','o','u','A','E','I','O','U':
-                System.out.println("Vowel");
+                System.out.println("Character is Vowel");
                 break;
             default:
-                System.out.println("Consonant");
+                System.out.println("Character is Consonant");
                 break;
         }
 

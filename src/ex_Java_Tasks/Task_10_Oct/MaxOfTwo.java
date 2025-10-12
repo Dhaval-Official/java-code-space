@@ -14,6 +14,6 @@ public class MaxOfTwo {
 
         int maxNum = Math.max(num1, num2);
 
-        System.out.println(maxNum);
+        System.out.println("Max is "+maxNum);
     }
 }

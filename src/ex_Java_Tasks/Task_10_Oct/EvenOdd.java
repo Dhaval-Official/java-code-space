@@ -12,7 +12,7 @@ public class EvenOdd {
 
         String result = num %2 == 0 ? "Even" : "Odd";
 
-        System.out.println(result);
+        System.out.println("Number is "+result);
 
     }
 }
