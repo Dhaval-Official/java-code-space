@@ -11,12 +11,13 @@ public class Anagrams {
 
         Scanner sc = new Scanner(System.in);
 
-
         System.out.println("Enter First word");
         String w1 = sc.nextLine();
 
         System.out.println("Enter Second word");
         String w2 = sc.nextLine();
+
+
 
         for (int i = 0; i < w1.length(); i++) {
 //            System.out.println(w1.charAt(i));
@@ -35,21 +36,22 @@ public class Anagrams {
 //            System.out.println(w2.charAt(i));
             if(ht.containsKey(w2.charAt(i))) {
                 count = ht.get(w2.charAt(i));
-                if(count-1 == 0) {
+                if(count == 1) {
                     ht.remove(w2.charAt(i));
                 } else {
                     ht.put(w2.charAt(i), --count);
                 }
-            } else {
-//                System.out.println("Not Matched");
-                isAnagram = false;
-                break;
             }
 
         }
 
-        isAnagram = ht.isEmpty() ? true : false;
-        System.out.println(isAnagram ? "it is an Anagram": "it is not an Anagram");
+        if(w1.length() == w2.length()) {
+            isAnagram = ht.isEmpty() ? true : false;
+            System.out.println(isAnagram ? "it is an Anagram": "it is not an Anagram");
+        } else {
+            System.out.println("it is not an Anagram");
+        }
+
 
     }
 }
