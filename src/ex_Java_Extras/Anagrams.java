@@ -44,7 +44,7 @@ public class Anagrams {
             }
 
         }
-
+        System.out.println();
         if(w1.length() == w2.length()) {
             isAnagram = ht.isEmpty() ? true : false;
             System.out.println(isAnagram ? "it is an Anagram": "it is not an Anagram");
