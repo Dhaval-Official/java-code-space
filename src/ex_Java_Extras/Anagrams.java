@@ -33,7 +33,7 @@ public class Anagrams {
         System.out.println();
 
         for (int i = 0; i < w2.length(); i++) {
-//            System.out.println(w2.charAt(i));
+
             if(ht.containsKey(w2.charAt(i))) {
                 count = ht.get(w2.charAt(i));
                 if(count == 1) {
