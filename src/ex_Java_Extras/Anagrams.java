@@ -17,8 +17,6 @@ public class Anagrams {
         System.out.println("Enter Second word");
         String w2 = sc.nextLine();
 
-
-
         for (int i = 0; i < w1.length(); i++) {
 //            System.out.println(w1.charAt(i));
 
@@ -30,10 +28,7 @@ public class Anagrams {
             }
         }
 
-        System.out.println();
-
         for (int i = 0; i < w2.length(); i++) {
-
             if(ht.containsKey(w2.charAt(i))) {
                 count = ht.get(w2.charAt(i));
                 if(count == 1) {
@@ -42,7 +37,6 @@ public class Anagrams {
                     ht.put(w2.charAt(i), --count);
                 }
             }
-
         }
         System.out.println();
         if(w1.length() == w2.length()) {
