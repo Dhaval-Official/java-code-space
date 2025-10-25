@@ -27,7 +27,7 @@ public class Anagrams {
                 ht.put(w1.charAt(i),1);
             }
         }
-
+        System.out.println();
         for (int i = 0; i < w2.length(); i++) {
             if(ht.containsKey(w2.charAt(i))) {
                 count = ht.get(w2.charAt(i));
