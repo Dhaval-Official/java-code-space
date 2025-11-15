@@ -16,3 +16,4 @@ class AmitSone extends AmitFather {
         System.out.println("Completing abstract method of parent class");
     }
 }
+
