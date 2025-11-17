@@ -1,0 +1,6 @@
+package ex_25_ENUM;
+
+
+enum Day2 {
+    SUNDAY, SATURDAY, MONDAY, TUESDAY, WEDNESDAY
+}

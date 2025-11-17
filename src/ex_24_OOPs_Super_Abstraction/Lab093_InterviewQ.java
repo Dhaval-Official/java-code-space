@@ -1,4 +1,4 @@
-package ex_24_OOPs_Abstraction;
+package ex_24_OOPs_Super_Abstraction;
 
 public class Lab093_InterviewQ {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ex_23_OOPs_SuperKeyword;
+package ex_24_OOPs_Super_Abstraction.ex_23_OOPs_SuperKeyword;
 
 public class Lab091_ {
     //same as Lab090

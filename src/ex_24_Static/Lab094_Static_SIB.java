@@ -1,4 +1,4 @@
-package ex_25_Static;
+package ex_24_Static;
 
 public class Lab094_Static_SIB {
     public static void main(String[] args) {
