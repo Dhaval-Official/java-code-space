@@ -9,6 +9,6 @@ public class Test2 {
             if (i != 0) result.append(" ");
         }
 
-        System.out.println(result.toString());
+
     }
 }
