@@ -10,12 +10,10 @@ class Solution {
         System.out.println(countAnagramSubstrings("as","sa"));
     }
 
-
     public static int[][] merge(int[][] intervals) {
         // TODO: implement
         return new int[0][];
     }
-
 
     public static int countAnagramSubstrings(String s, String p) {
         // TODO: implement
