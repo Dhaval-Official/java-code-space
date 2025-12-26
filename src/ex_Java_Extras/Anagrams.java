@@ -45,7 +45,5 @@ public class Anagrams {
         } else {
             System.out.println("it is not an Anagram");
         }
-//extra comments
-
     }
 }
